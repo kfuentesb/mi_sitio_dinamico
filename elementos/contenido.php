@@ -24,6 +24,7 @@ $productos = [
       while ($i < count($productos)):
         $nombre = $keys[$i];
         $precio = $productos[$nombre];
+        $i++;
     ?>
       <tr>
         <td><?= htmlspecialchars($nombre) ?></td>
